@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+/* Utility Classes */
+* {
+  box-sizing: border-box;
+}
+body {
+  line-height: 1.6;
+  font-size: 16px;
+  margin: 0;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: crimson;
+}
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0277bd;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 3.2px;
+  cursor: pointer;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn:hover {
+  background-color: #01579b;
+  color: #fff;
+}
+h1.m-heading {
+  font-size: 32px;
+}
+.left-align {
+  text-align: left;
+}
+
+/* Section: Main body */
+#main-body {
+  display: flex;
+  padding-bottom: 50px;
+}
+#main-body .item {
+  width: 50%;
+}
+#main-body .img {
+  background: url('img/segun.jpg') no-repeat center center/cover;
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px #545454;
+}
+/* Footer */
+footer {
+  text-align: center;
+  background: #f4f4f4;
+  padding: 60px 20px 10px 20px;
+}
+footer .items {
+  display: flex;
+}
+footer .item {
+  width: 50%;
+}
+footer h2 {
+  margin-top: 0;
+}
+footer p {
+  font-size: 16px;
+  margin: 16px 0;
+}
+footer .copy {
+  padding-top: 20px;
+  font-size: 13px;
+}
+footer .icons a {
+  color: #000000;
+  padding-right: 30px;
+}
+footer .icons a:last-child {
+  padding-right: 0;
+}
+footer .icons {
+  color: #545454;
+  padding-top: 20px;
+}
+footer .fa-facebook:hover {
+  color: #3b5998;
+}
+footer .fa-linkedin:hover {
+  color: #0077b5;
+}
+footer .fa-whatsapp:hover {
+  color: #1e836c;
+}
+footer .fa-instagram:hover {
+  color: #833ab4;
+}
+footer .fa-google:hover {
+  color: #ea4335;
+}
+footer iframe {
+  padding: 0 30px;
+}
+/* Small and medium screens */
+@media (max-width: 1024px) {
+  /* Section: Main */
+  #main-body {
+    display: block;
+    padding: 20px;
+  }
+  #main-body .item {
+    width: 100%;
+    display: block;
+  }
+  #main-body .img {
+    height: 500px;
+    margin: 30px 0;
+  }
+  #main-body .btn {
+    display: block;
+    text-align: center;
+  }
+  /* Footer */
+  footer .items {
+    display: block;
+  }
+  footer .item {
+    width: 100%;
+  }
+  footer h2 {
+    margin-top: 30px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+  footer .copy {
+    font-size: 15px;
+  }
+}
