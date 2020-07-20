@@ -144,6 +144,9 @@ footer iframe {
   footer p {
     font-size: 16px;
   }
+  footer iframe {
+    padding: 0;
+  }
   footer .copy {
     font-size: 15px;
   }
