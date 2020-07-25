@@ -121,7 +121,7 @@ footer .fa-google:hover {
   color: #ea4335;
 }
 footer iframe {
-  padding: 0 30px;
+  padding: 0;
 }
 /* Small and medium screens */
 @media (max-width: 1024px) {
