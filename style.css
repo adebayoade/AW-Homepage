@@ -85,7 +85,7 @@ footer .copy {
   font-size: 13px;
 }
 footer .icons a {
-  color: #000000;
+  color: inherit;
   padding-right: 20px;
 }
 footer .icons i {
