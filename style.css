@@ -20,7 +20,7 @@ body {
   color: crimson;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1150px;
   margin: 20px auto;
 }
 .btn {
@@ -65,7 +65,7 @@ footer {
   color: #374046;
   text-align: center;
   background: #f4f4f4;
-  padding: 60px 20px 10px 20px;
+  padding: 60px 20px 0 20px;
 }
 footer .items {
   display: flex;
@@ -81,15 +81,17 @@ footer p {
   margin: 16px 0;
 }
 footer .copy {
-  padding-top: 20px;
+  padding: 20px 0;
   font-size: 13px;
+  border-top: 1px solid #ebebeb;
+  margin: 0;
 }
 footer .icons a {
   color: inherit;
   padding-right: 20px;
 }
 footer .icons i {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 footer .icons a:last-child {
   padding-right: 0;
