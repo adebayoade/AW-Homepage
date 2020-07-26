@@ -145,8 +145,10 @@ footer iframe {
 footer .card {
   height: 285px;
 }
-footer  ul {
+footer .address {
   margin: 40px 0 0 0;
+}
+footer  ul {
   font-size: inherit;
   list-style: none;
   padding: 0;
