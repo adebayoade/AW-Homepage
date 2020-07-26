@@ -15,9 +15,12 @@ body {
 }
 .link {
   text-decoration: none;
+  color: #23419f;
 }
 .link:hover {
   color: crimson;
+  text-decoration: underline;
+  /* cursor: pointer; */
 }
 .container {
   max-width: 1150px;
@@ -71,6 +74,11 @@ footer {
   text-align: center;
   background: #f4f4f4;
   padding: 30px 20px 0 20px;
+}
+
+footer .container {
+  /* Remove padding from boostrap container class */
+  padding: 0;
 }
 footer .items {
   display: flex;
@@ -128,7 +136,8 @@ footer iframe {
   /* Section: Main */
   #main-body {
     display: block;
-    padding: 20px;
+    /* Remove padding from boostrap container class */
+    /* padding: 20px;  */
   }
   #main-body .item {
     width: 100%;
@@ -160,5 +169,8 @@ footer iframe {
   }
   footer .copy {
     font-size: 14px;
+  }
+  footer .icons i {
+    font-size: 24px;
   }
 }
