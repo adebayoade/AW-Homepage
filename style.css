@@ -150,10 +150,12 @@ footer  ul {
   font-size: inherit;
   list-style: none;
   padding: 0;
+  
 }
 footer li {
   list-style-type: none;
   list-style-position: inside;
+  padding-left: 3px;
 }
 /* Small and medium screens */
 @media (max-width: 1024px) {
