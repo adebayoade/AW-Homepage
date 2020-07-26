@@ -150,6 +150,7 @@ footer  ul {
 }
 footer li {
   list-style-type: circle;
+  list-style-position: inside;
 }
 /* Small and medium screens */
 @media (max-width: 1024px) {
