@@ -152,7 +152,9 @@ footer  ul {
   font-size: inherit;
   list-style: none;
   padding: 0;
-  
+}
+footer h5 {
+  font-size: inherit;
 }
 footer li {
   list-style-type: none;
