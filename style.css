@@ -137,12 +137,25 @@ footer iframe {
   padding: 0;
 }
 footer .address {
-  margin-top: 30px;
   text-align: left;
   font-size: inherit;
 }
 footer li {
   font-size: inherit;
+}
+footer .map {
+  height: 304px;
+}
+footer .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .card h5.m-top {
+  /* position: absolute;
+  bottom: 10px;
+  left: 25%; */
 }
 /* Small and medium screens */
 @media (max-width: 1024px) {
