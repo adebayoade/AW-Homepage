@@ -49,7 +49,7 @@ h1.m-heading {
   text-align: left;
 }
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   padding: 20px;
 }
@@ -151,12 +151,10 @@ footer .card {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
-footer .card h5.m-top {
-  /* position: absolute;
-  bottom: 10px;
-  left: 25%; */
+footer .card h5 {
+  font-size: inherit;
 }
 /* Small and medium screens */
 @media (max-width: 1024px) {
