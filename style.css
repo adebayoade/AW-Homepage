@@ -142,6 +142,7 @@ footer .address {
 }
 footer li {
   font-size: inherit;
+  padding-left: 10px;
 }
 footer .map {
   height: 304px;
