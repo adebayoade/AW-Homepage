@@ -133,6 +133,9 @@ footer .fa-instagram:hover {
 footer .fa-google:hover {
   color: #ea4335;
 }
+footer .fa-youtube-play:hover {
+  color: #FF0000;
+}
 footer iframe {
   padding: 0;
 }
